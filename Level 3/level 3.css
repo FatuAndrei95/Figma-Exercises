@@ -1,0 +1,213 @@
+body{
+    background-color: white;
+    margin: 0px;
+}
+nav{
+    background-color: #3A72B5;
+    position: initial;
+    width: 1440px;
+    height: 94px;
+    margin:0px;
+}
+
+main{
+    display: block;
+    background-color:#DBDBDB;
+    width: 986px;
+    height: 580px;
+    border-radius: 8px;
+    position: relative;
+    top: 102px;
+    left: 227px;
+    margin-bottom: 124px;
+}
+
+.top-container {
+    width: 986px;
+    height: 290px;
+}
+
+.top-container div:first-child {
+    left: 55px;
+    top: 42px;
+}
+
+.top-container div:last-child {
+    left: 91px;
+    top: 0px;
+}
+
+.top-box {
+    background-color: white;
+    border-radius: 8px;
+    width: 419px;
+    height: 238px;
+    display: inline-block;
+    position: relative;
+}
+
+.invi2 {
+    display: inline-block;
+    width: 986px;
+    height: 290px;
+}
+
+.option1 {
+    background-color: white;
+    border-radius: 8px;
+    display: inline-block;
+    width: 258px;
+    height: 146px;
+    position: relative;
+    left: 55px;
+    top: 58px;
+}
+
+.option2 {
+    background-color:white;
+    border-radius: 8px;
+    display: inline-block;
+    width: 258px;
+    height: 244px;
+    position: relative;
+    /* valoarea obtinuta este de 55px margine pana in option1 - diferenta lasata de inline-block + distanta catre option2*/
+    left: 106px;
+    top: -75px;
+}
+
+.option3 {
+    background-color: white;
+    border-radius: 8px;
+    display: inline-block;
+    width: 258px;
+    height: 146px;
+    position: relative;
+    left: 153px;
+    top: 58px;
+}
+
+p{
+    margin:0px;
+}
+
+.text1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    position: relative;
+    top: 17px;
+    left: 22px;
+}
+
+.text2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    position: relative;
+    top: 17px;
+    left: 300px;
+}
+
+.strada1 {
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    position: relative;
+    left: 52px;
+    top: 29px;
+}
+
+.strada2 {
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    position: relative;
+    left: 52px;
+    top: 56px;
+}
+   
+.email1 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;;  
+    position: relative;
+    left: 214px;
+    top: 29px;
+}
+
+.email2{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;  
+    position: relative;
+    /*nu intelg de ce la email1, imi positioneaza corect, iar la email2, pe partea stanga nu, avand aceeasi positize 0*/
+    left: 179px;
+    top: 40px;
+}
+
+.img1 {
+    width: 104px;
+    height: 104px;
+    display: inline-block;
+    position: relative;
+    top: 19px;
+    left: 24px;
+    border: 2px solid #000000;
+}
+
+.img2 {
+    width: 104px;
+    height: 104px;
+    display: block;
+    position: relative;
+    top: 38px;
+    left: 77px;
+    border: 2px solid #000000;
+}
+.img3 {
+    width: 104px;
+    height: 104px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 61.45px;
+    border: 2px solid #000000;
+}
+
+.text-option1{
+    line-height: 21px;
+    display: inline-block;
+    position: relative;
+    top: -26px;
+    left: 39px;
+}
+
+.text-option2{
+    line-height: 21px;
+    display: block;
+    position: relative;
+    top: 22px;
+    left: 95px;
+}
+
+.text-option3{
+    line-height: 21px;
+    display: inline-block;
+    position: relative;
+    top: -26px;
+    left: 48px;
+}

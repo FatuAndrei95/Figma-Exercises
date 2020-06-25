@@ -1,0 +1,119 @@
+body{
+    background-color: white;
+    margin: 0px;
+}
+nav{
+    background-color: #3A72B5;
+    position: initial;
+    width: 1423px;
+    height: 94px;
+    margin:0px;
+    
+}
+
+.company-name{
+    display: inline-block;
+    position: relative;
+    top: 26px;
+    left: 227px;
+    width: 201px;
+    height: 42px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #FFFFFF;
+    line-height: 33px;
+ 
+    /* display, position, width/height, font, background */
+}
+
+.Profile-box{
+    display: inline-block;
+    width: 100px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+    /* pentru casuta de profil, avem border 3, deci va fi data cu 6px mai jos fata de cine este inline block cu ea*/
+    top: 23px;
+    left: 904px;
+}
+
+.profile{
+    color: #3A72B5;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    position: relative;
+     /* pentru casuta de profil, avem border 3px, deci positia relativa 3px+(valoarea pe care o punem)*/
+    left: 15px;
+    top: 4px;
+}
+
+main{
+    display: block;
+    background-color:#DBDBDB;
+    width: 986px;
+    height: 560px;
+    border-radius: 8px;
+    position: relative;
+    top: 102px;
+    left: 227px;
+    margin-bottom: 124px;
+}
+
+.customer-box {
+    background-color:#FFFFFF;
+    width: 297.81px;
+    height: 297.81px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transform: rotate(10deg);
+    position: relative;
+    display: inline-block;
+    top: 105px;
+    left: 455.35px;
+}
+
+.company-box {
+    background-color:#FFFFFF;
+    width: 297.81px;
+    height: 297.81px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transform: rotate(-10deg);
+    position: relative;
+    display: inline-block;
+    top: 105px;
+    /* ca sa aflu valorea, a trebuit sa impart la 2 latura patratului, si sa scad distanta de intereferenta dintre cele 2 patrate*/
+    right: 121px;
+}
+
+p{
+    color:#000000;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.company {
+    position: relative;
+    left: 67px;
+    top: 208px;
+}
+
+.customer {
+    position: relative;
+    left: 67px;
+    top: 208px;
+}
