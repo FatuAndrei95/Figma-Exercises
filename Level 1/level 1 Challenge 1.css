@@ -14,6 +14,19 @@ html {
     height: 94px;
 }
 
+.company {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: left;
+    position: relative;
+    margin-left: 605px;
+    padding-top: 26px;
+}
+
 .box-centrala {
     background-color: #DBDBDB;
     width: 986px;
@@ -25,19 +38,18 @@ html {
     margin-left: 227px;
 }
 
-.container1{
-    width: 876px;
+.container1 {
+    width: 986px;
     height: 280px;
     font-size: 0px;
-    position: relative;
-    margin-top: 42px;
-    margin-left: 55px;
+    position: absolute;
 }
 
 .container2 {
-    display: inline-block;
     width: 986px;
     height: 280px;
+    position: absolute;
+    margin-top: 280px; 
 }
 
 .box1 {
@@ -45,7 +57,10 @@ html {
     background-color: white;
     width: 419px;
     height: 238px;
-    border-radius: 8px
+    border-radius: 8px;
+    position: relative;
+    margin-top: 42px;
+    margin-left: 55px;
 }
 
 .box2 {
@@ -55,6 +70,9 @@ html {
     height: 238px;
     border-radius: 8px;  
     float: right;
+    position: relative;
+    margin-top: 42px;
+    margin-right: 55px;
 }
 
 .box3 {
@@ -62,6 +80,9 @@ html {
     width: 876px;
     height: 236px;
     border-radius: 8px;
+    position: relative;
+    margin-top: 22px;
+    margin-left: 55px;
 }
 
 p {
@@ -72,16 +93,40 @@ p {
     line-height: 42px;
 }
 
-.text1# {
+.text1 {
     text-align: left;
     position: relative;
     margin-left: 23px;
     margin-top: 98px;
 }
 
-.text2# {
+.text2 {
     text-align: right;
     position: relative;
+    margin-top: 179px;
     margin-right: 20px;
-    margin-bottom: 17px;
+}
+
+.text3 {
+    text-align: left;
+    position: relative;
+    margin-left: 23px;
+    padding-top: 29px;
+}
+
+.text4 {
+    text-align: left;
+    position: relative;
+    margin-top: 95px;
+    margin-left: 23px;
+}
+
+.ball  {
+    background: #252F89;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 667px;
+    margin-top: -165px;
 }
