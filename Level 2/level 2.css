@@ -2,20 +2,16 @@ body{
     background-color: white;
     margin: 0px;
 }
+
 nav{
     background-color: #3A72B5;
-    position: initial;
     width: 1423px;
     height: 94px;
-    margin:0px;
-    
+    margin: 0px;  
 }
 
 .company-name{
-    display: inline-block;
-    position: relative;
-    top: 26px;
-    left: 227px;
+    color: #FFFFFF;
     width: 201px;
     height: 42px;
     
@@ -23,24 +19,24 @@ nav{
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
-    color: #FFFFFF;
     line-height: 33px;
- 
-    /* display, position, width/height, font, background */
+
+    display: inline-block;
+    position: relative;
+    margin-left: 227px;
+    margin-top: 26px;
 }
 
 .Profile-box{
-    display: inline-block;
     width: 100px;
     height: 42px;
     background: #FFFFFF;
     border: 3px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 8px;
+    display: inline-block;
     position: relative;
-    /* pentru casuta de profil, avem border 3, deci va fi data cu 6px mai jos fata de cine este inline block cu ea*/
-    top: 23px;
-    left: 904px;
+    margin-left: 685px;
 }
 
 .profile{
@@ -51,9 +47,8 @@ nav{
     font-size: 22px;
     line-height: 26px;
     position: relative;
-     /* pentru casuta de profil, avem border 3px, deci positia relativa 3px+(valoarea pe care o punem)*/
-    left: 15px;
-    top: 4px;
+    margin-top: 7px;
+    margin-left: 18px;
 }
 
 main{
@@ -63,41 +58,41 @@ main{
     height: 560px;
     border-radius: 8px;
     position: relative;
-    top: 102px;
-    left: 227px;
-    margin-bottom: 124px;
-}
-
-.customer-box {
-    background-color:#FFFFFF;
-    width: 297.81px;
-    height: 297.81px;
-    border: 2px solid #000000;
-    box-sizing: border-box;
-    border-radius: 8px;
-    transform: rotate(10deg);
-    position: relative;
-    display: inline-block;
-    top: 105px;
-    left: 455.35px;
+    margin-top: 102px;
+    margin-bottom: 144px;
+    margin-left: 227px;
 }
 
 .company-box {
     background-color:#FFFFFF;
-    width: 297.81px;
-    height: 297.81px;
+    width: 298px;
+    height: 298px;
     border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 8px;
     transform: rotate(-10deg);
-    position: relative;
     display: inline-block;
-    top: 105px;
-    /* ca sa aflu valorea, a trebuit sa impart la 2 latura patratului, si sa scad distanta de intereferenta dintre cele 2 patrate*/
-    right: 121px;
+    position: relative;
+    margin-top: 105px;
+    margin-left: 185px;
+    z-index: 1;
 }
 
-p{
+.customer-box {
+    background-color:#FFFFFF;
+    width: 298px;
+    height: 298px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transform: rotate(10deg);
+    display: inline-block;
+    position: relative;
+    /*4px de la display:inline-block + distanta interferentei celor 2 casute*/
+    margin-left: -31px;
+}
+
+p {
     color:#000000;
     font-family: roboto;
     font-style: normal;
@@ -108,12 +103,23 @@ p{
 
 .company {
     position: relative;
-    left: 67px;
-    top: 208px;
+    margin-top: 240px;
+    margin-bottom: 0px;
+    margin-left: 67px;
 }
 
 .customer {
     position: relative;
-    left: 67px;
-    top: 208px;
+    margin-top: 240px;
+    margin-bottom: 0px;
+    margin-left: 67px;
+}
+
+.image {
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    left: 668px;
+    top: 44px;
+    border-radius: 50%;
 }
